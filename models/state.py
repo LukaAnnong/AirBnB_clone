@@ -1,12 +1,13 @@
-#!/usr/bin/python3
-""" State class """
+!/usr/bin/python3
 
-import uuid
-from datetime import datetime
-from models import storage
+"""
+State class that inherits from BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class State(BaseModel):
-    """ State class """
+    """ Class that defines attributes for a state """
+
     name = ""

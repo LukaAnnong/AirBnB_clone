@@ -1,14 +1,15 @@
 #!/usr/bin/python3
-""" Place class """
 
-import uuid
-from datetime import datetime
-from models import storage
+"""
+Place class that inherits from BaseModel
+"""
+
 from models.base_model import BaseModel
 
 
 class Place(BaseModel):
-    """ Place class """
+    """ Class that defines attributes for a place """
+
     city_id = ""
     user_id = ""
     name = ""

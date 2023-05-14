@@ -1,15 +1,15 @@
 #!/usr/bin/python3
-"""Review class
+
+"""
+Review class that inherits from BaseModel
 """
 
-import uuid
-from datetime import datetime
-from models import storage
 from models.base_model import BaseModel
 
 
 class Review(BaseModel):
-    """ Review class """
+    """ Class that defines attributes for a review """
+
     place_id = ""
     user_id = ""
     text = ""
